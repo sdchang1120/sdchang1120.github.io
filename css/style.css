@@ -53,12 +53,14 @@ html, body {
 	opacity: .75;
 }
 
-.overlay button {
+.overlay > #enter-players {
 	padding: 5px 10px;
 	margin: 10px;
 	border-radius: 5px;
 	border: none;
 }
+
+input[type="submit"]{ -webkit-appearance: none; }
 
 .game {
   width: 100%;
