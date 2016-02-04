@@ -55,4 +55,5 @@ A minion-themed connect four game.
 
 # Comments
 
-The game is a little slow because of the gif background.
+* The game is a little slow because of the gif background.
+* 'Play' button missing on iPhones for some reason. Attempting to fix this.
