@@ -157,6 +157,10 @@ article {
   margin: 0px 10px;
 }
 
+.fa-envelope, .fa-map-marker {
+  font-size: 1em;
+}
+
 @media (max-width: 500px) {
 
   h1 {
