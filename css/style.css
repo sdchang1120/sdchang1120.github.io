@@ -53,7 +53,12 @@ header ul {
 }
 
 #about {
+  height: 100vh;
+}
 
+#work {
+  background: white;
+  color: black;
 }
 
 #contact {
@@ -62,6 +67,15 @@ header ul {
   background-position: center;
   background-attachment: fixed;
   text-align: center;
+  height: 100vh;
+}
+
+#resume {
+  background: black;
+  display: inline-block;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
 }
 
 h1 {
@@ -120,6 +134,7 @@ img.profile {
 input {
   width: 300px;
   border: 0;
+  border-radius: 5px;
   padding: 10px;
   margin: 10px;
   font-size: 15px;
@@ -137,9 +152,10 @@ button {
   opacity: 0.7;
   background: #fff;
   font: 'Brandon';
-  font-size: 15px;
+  font-size: 12px;
   color: #000;
   border: none;
+  border-radius: 5px;
 }
 
 button:hover {
@@ -150,6 +166,17 @@ article {
   max-width: 600px;
   padding: 20px;
   margin: 0 auto;
+}
+
+.project {
+  border: 1px solid black;
+  border-radius: 30vh;
+  display: inline-block;
+  width: 30vh;
+  height: 30vh;
+  padding: 5px;
+  margin: 30px;
+  box-sizing: border-box;
 }
 
 .fa {
@@ -181,7 +208,7 @@ article {
     text-transform: uppercase;
   }
 
-  li {
+  header li {
   display: block;
   padding: 5px;
   }
