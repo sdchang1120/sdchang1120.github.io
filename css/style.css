@@ -59,6 +59,7 @@ header ul {
 #work {
   background: white;
   color: black;
+  overflow: auto;
 }
 
 #contact {
