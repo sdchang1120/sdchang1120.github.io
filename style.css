@@ -40,7 +40,8 @@ header .links {
 }
 
 a {
-  color: #b76969;
+  font-size: 1.5em;
+  color: #bf7e7e;
   padding: 5px 10px;
   transition: color .3s ease;
 }
