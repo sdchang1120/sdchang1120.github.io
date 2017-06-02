@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  color: #566b78;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+main {
+  padding: 4em 1em;
+}
+
+header {
+  background: #1a1f27;
+  line-height: 1.2;
+  max-width: none;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 3em;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+header p {
+  letter-spacing: .3em;
+}
+
+header .links {
+  margin: 10px 0;
+}
+
+a {
+  color: #b76969;
+  padding: 5px 10px;
+  transition: color .3s ease;
+}
+
+a:hover {
+  color: #ffc2c2;
+}
